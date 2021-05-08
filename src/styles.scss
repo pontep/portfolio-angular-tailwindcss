@@ -1,4 +1,11 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer components{
+    .card{
+        @apply
+        p-5 rounded-xl shadow-2xl
+    }
+}
 /* You can add global styles to this file, and also import other style files */
